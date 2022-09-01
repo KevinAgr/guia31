@@ -1,0 +1,44 @@
+/* ejemplo1.css AA20009 */
+fichero {
+    background-color: dodgerblue;
+}
+
+ficha {
+    background-color:lightgreen; 
+    display:block;
+    padding: 10px;
+    border: 3px seagreen solid;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+nombre {
+    color:white; 
+    display:inline;
+}
+
+apellido {
+    color:yellow; 
+    display:inline;
+}
+
+direccion,correo, url {
+    display: block;
+    color: navy;
+}
+
+telefonos {
+    display: none;
+}
+
+direccion::before {
+    content: "Dirección: ";
+}
+
+correo::before {
+    content: "Correo: ";
+}
+
+url::before {
+    content: "URL: ";
+}

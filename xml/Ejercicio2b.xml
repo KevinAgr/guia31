@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!-- ejercicio2a.xml AA20009 -->
+
+<?xml-stylesheet type="text/css" href="../css/ejercicio2b.css" ?>
+
+<pais nombre="El Salvador">
+  <departamentos>
+    <departamento id="1" nombre="San Salvador">
+      <cabecera>San Salvador</cabecera>
+      <habitantes>1,700,000</habitantes>
+      <altura>545 MSNM</altura>
+    </departamento>
+    <departamento id="2" nombre="La Libertad">
+      <cabecera>Santa Tecla</cabecera>
+      <habitantes>660,653</habitantes>
+      <altura>493 MSNM</altura>
+    </departamento>
+    <departamento id="3" nombre="Santa Ana">
+      <cabecera>Santa Ana</cabecera>
+      <habitantes>631 ,100</habitantes>
+      <altura>763 MSNM</altura>
+    </departamento>
+  </departamentos>
+  <moneda>Dólar</moneda>
+  <codigo>503</codigo>
+  <idiomas>
+    <oficial>Español</oficial>
+    <autocno>Nahuatl</autocno>
+    <segundo>Ingles</segundo>
+  </idiomas>
+</pais>

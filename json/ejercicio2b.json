@@ -1,0 +1,37 @@
+{
+	"pais": {
+		"departamentos": {
+			"departamento": [
+				{
+					"cabecera": "San Salvador",
+					"habitantes": "1,700,000",
+					"altura": "545 MSNM",
+					"_id": "1",
+					"_nombre": "San Salvador"
+				},
+				{
+					"cabecera": "Santa Tecla",
+					"habitantes": "660,653",
+					"altura": "493 MSNM",
+					"_id": "2",
+					"_nombre": "La Libertad"
+				},
+				{
+					"cabecera": "Santa Ana",
+					"habitantes": "631 ,100",
+					"altura": "763 MSNM",
+					"_id": "3",
+					"_nombre": "Santa Ana"
+				}
+			]
+		},
+		"moneda": "Dólar",
+		"codigo": "503",
+		"idiomas": {
+			"oficial": "Español",
+			"autocno": "Nahuatl",
+			"segundo": "Ingles"
+		},
+		"_nombre": "El Salvador"
+	}
+}

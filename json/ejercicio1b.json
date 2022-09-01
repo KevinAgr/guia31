@@ -1,0 +1,44 @@
+{
+	"fichero": {
+		"ficha": [
+			{
+				"nombre": "Antonio",
+				"apellido": "Barbero",
+				"direccion": "Calle de Los Andes, 45",
+				"_id": "1",
+				"_fechaingreso": "1/11/2012"
+			},
+			{
+				"nombre": "Kevin Alejandro",
+				"apellido": "Agreda Lemus",
+				"direccion": "San Salvador",
+				"telefonos": {
+					"celular": "7525-2525",
+					"casa": "2424-2424"
+				},
+				"correo": "aa20009@ues.edu.sv",
+				"url": "kevinagr.github.io/tarea21c/",
+				"_id": "2",
+				"_fechaingreso": "17/02/2020"
+			},
+			{
+				"nombre": "Daniel",
+				"apellido": "Garcia",
+				"direccion": "Soyapango",
+				"telefonos": {
+					"celular": "7412-0000",
+					"casa": "2121-2222"
+				},
+				"correo": "gg20001@ues.edu.sv",
+				"url": "www.gg20001.com",
+				"documentacion": {
+					"dui": "012345678-9",
+					"isss": "12324234323",
+					"afp": "3545344352"
+				},
+				"_id": "3",
+				"_fechaingreso": "24/12/2020"
+			}
+		]
+	}
+}

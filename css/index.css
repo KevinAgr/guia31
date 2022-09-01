@@ -19,9 +19,12 @@
     flex-direction: column;
 }
 
+h3 {
+    margin: 10px;
+}
+
 .btn {
     align-items: center;
-    background-color: #0A66C2;
     border: 0;
     border-radius: 100px;
     box-sizing: border-box;
@@ -49,19 +52,20 @@
     -webkit-user-select: none;
 }
   
-.btn:hover,
-.btn-18:focus { 
+.btn-blue {
+    background-color: #0A66C2;
+}
+
+.btn-blue:hover { 
     background-color: #16437E;
     color: #ffffff;
 }
-  
-.btn:active {
-    background: #09223b;
-    color: rgb(255, 255, 255, .7);
+
+.btn-orange {
+    background-color: #ffc107;
 }
-  
-.btn:disabled { 
-    cursor: not-allowed;
-    background: rgba(0, 0, 0, .08);
-    color: rgba(0, 0, 0, .3);
+
+.btn-orange:hover { 
+    background-color: #ffa000;
+    color: #ffffff;
 }

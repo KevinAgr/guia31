@@ -1,0 +1,26 @@
+{
+	"fichero": {
+		"ficha": [
+			{
+				"nombre": "Antonio",
+				"apellido": "Barbero",
+				"direccion": "Calle de Los Andes, 45",
+				"_id": "1",
+				"_fechaingreso": "1/11/2012"
+			},
+			{
+				"nombre": "Kevin Alejandro",
+				"apellido": "Agreda Lemus",
+				"direccion": "San Salvador",
+				"telefonos": {
+					"celular": "2525-2525",
+					"casa": "2424-2424"
+				},
+				"correo": "aa20009@ues.edu.sv",
+				"url": "https://kevinagr.github.io/tarea21c/",
+				"_id": "2",
+				"_fechaingreso": "17/02/2020"
+			}
+		]
+	}
+}

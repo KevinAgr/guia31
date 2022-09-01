@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
-<!-- ejemplo1a.xml AA20009 -->
+<!-- ejercicio1a.xml AA20009 -->
+
+<?xml-stylesheet type="text/css" href="../css/ejercicio1a.css" ?>
 
 <fichero>
   <ficha id="1" fechaingreso="1/11/2012">

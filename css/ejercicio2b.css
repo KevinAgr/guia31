@@ -1,0 +1,70 @@
+/* ejercicio2a.css AA20009 */
+pais {
+    background-color: midnightblue;
+    padding: 20px;
+}
+
+pais::before {
+    content: "País: " attr(nombre);
+    font-size: 20px;
+    color: #fff;
+    display: block;   
+}
+
+departamentos::before {
+    content: "Departamentos: ";
+    color: #fff;
+    display: block;
+    margin-top: 10px;
+}
+
+departamento {
+    border: 5px solid yellow;
+    border-radius: 20px;
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: azure;
+}
+
+departamento::before {
+    content: attr(id) " - " attr(nombre);
+    font-size: larger;
+    display: block;
+    text-align: center;
+    color: midnightblue
+}
+
+cabecera,habitantes,altura {
+    display: block;
+}
+
+cabecera::before {
+    content: "Cabecera: ";
+}
+
+habitantes::before {
+    content: "Habitantes: ";
+}
+
+altura::before {
+    content: "Altura: ";
+}
+
+moneda,idiomas,codigo {
+    color: #fff;
+    display: block;
+    margin-top: 10px;
+}
+
+moneda::before {
+    content: "Moneda: ";
+}
+
+codigo::before {
+    content: "Código:";
+}
+
+idiomas::before {
+    content: "Idiomas: ";
+}

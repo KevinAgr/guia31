@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<!-- ejercicio1b.xml AA20009 -->
+
+<?xml-stylesheet type="text/css" href="../css/ejercicio1b.css" ?>
+
+<fichero>
+  <ficha id="1" fechaingreso="1/11/2012">
+    <nombre>Antonio</nombre>
+    <apellido>Barbero</apellido>
+    <direccion>Calle de Los Andes, 45</direccion>
+  </ficha>
+  <ficha id="2" fechaingreso="17/02/2020">
+    <nombre>Kevin Alejandro</nombre>
+    <apellido>Agreda Lemus</apellido>
+    <direccion>San Salvador</direccion>
+    <telefonos>
+      <celular>7525-2525</celular>
+      <casa>2424-2424</casa>
+    </telefonos>
+    <correo>aa20009@ues.edu.sv</correo>
+    <url>kevinagr.github.io/tarea21c/</url>
+  </ficha>
+  <ficha id="3" fechaingreso="24/12/2020">
+    <nombre>Daniel</nombre>
+    <apellido>Garcia</apellido>
+    <direccion>Soyapango</direccion>
+    <telefonos>
+      <celular>7412-0000</celular>
+      <casa>2121-2222</casa>
+    </telefonos>
+    <correo>gg20001@ues.edu.sv</correo>
+    <url>www.gg20001.com</url>
+    <documentacion>
+      <dui>012345678-9</dui>
+      <isss>12324234323</isss>
+      <afp>3545344352</afp>
+    </documentacion>
+  </ficha>
+  </fichero>
